@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets — .env holds a live ANTHROPIC_API_KEY
+.env
+
+# Agent run artefacts (session transcripts, stderr, freeze snapshots)
+runs/
